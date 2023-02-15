@@ -4,9 +4,10 @@
   "description": "",
   "homepage": "https://mansurnarkulyyev.github.io/movie-land",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /movie-land/"
-  },
+  "start": "parcel src/*.html",
+  "build": "parcel build src/*.html --public-url /movie-land/",
+  "deploy": "gh-pages -d dist"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/goitacademy/movie-land.git"
