@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Land</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore amet natus dolorum consectetur placeat, ipsa doloremque ratione architecto debitis repellat id nesciunt labore totam eveniet corrupti atque possimus veritatis doloribus">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.98cbf7c9.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.8d7b58f0.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.9eb949d3.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.cdd247c9.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.8206c151.css">
+  <script src="/styles.8206c151.js"></script><link rel="stylesheet" href="/home.88ec6637.css"></head>
+  <body>
+    <header class="section header">
+  <div class="container">
+    <nav class="header__nav-logo">
+      <a href="/index.html" class="header__nav-link">
+        <svg class="header__icon">
+          <use href="/icons.2d421eb7.svg#icon-film"></use>
+        </svg>
+        <span class="header__logo">Movie Land</span>
+      </a>
+      <ul class="header__nav-pages">
+        <li class="header__list"><a href="/index.html" class="current header__link">home</a></li>
+        <li class="header__list"><a href="/library.html" class="header__link">my library</a></li>
+      </ul>
+    </nav>
+    <form class="header__form">
+      <input class="header__input" type="text" name="search" placeholder="Search a movie...">
+      <button class="header__btn" type="submit">
+        <svg class="header__search">
+          <use href="/icons.2d421eb7.svg#icon-search" width="14" height="14"></use>
+        </svg>
+      </button>
+    </form>
+    <p class="header__message is-hidden">
+      Search result not successful. Enter the correct movie name and
+    </p>
+  </div>
+</header>
+
+    <main>
+      <section class="gallery section">
+  <h2 class="section-headre-hidden">Gallery</h2>
+  <div class="container js-gallery">
+    <div class="loading-block"></div>
+    <ul class="gallery__container">
+      <!-- <li class="card__wrapper">
+        <img src="./images/1sm.jpg" alt="bla bla" class="card__img" />
+        <h2 class="card__title">GREYHOUND</h2>
+        <div class="card__content-wrapper">
+          <p class="card__genre">Drama, Action</p>
+          &nbsp;|&nbsp;
+          <p class="card__year">2020</p>
+        </div>
+      </li> -->
+    </ul>
+  </div>
+</section>
+
+      <section class="pagination section">
+  <h2 class="section-headre-hidden">Pagination</h2>
+  <div class="container">
+    <div id="pagination" class="tui-pagination"></div>
+  </div>
+</section>
+
+      <div class="backdrop is-hidden" data-modal="">
+  <div class="modal">
+    <button class="modal__close" type="button">
+      <svg class="modal__close-icon" width="15" height="15">
+        <use href="/icons.2d421eb7.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="js-modal">
+      <!-- hbs places here -->
+    </div>
+  </div>
+</div>
+
+    </main>
+    <footer class="section footer">
+  <div class="container footer__container">
+    <p class="footer__copyright">© 2023 | All Rights Reserved |&nbsp;</p>
+    <p class="footer__copyright">
+      Developed with <span class="footer__text-icon">🧡</span> by GoIT Student
+    </p>
+  </div>
+</footer>
+
+
+    <script src="/home.88ec6637.js"></script>
+  </body>
+</html>
