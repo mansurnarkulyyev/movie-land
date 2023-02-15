@@ -1,0 +1,14 @@
+
+{{#each this}}
+<li class="card__wrapper" data-id="{{id}}">
+        <img class="card__img" src="{{poster_path}}" alt="{{title}}"/>
+        {{!-- <div class="card__text-wrap"> --}}
+<h2 class="card__title">{{title}}</h2>
+<div class="card__content-wrapper">
+  <p>
+    {{#each genre_ids}} {{this}}{{#if @last}}{{else}},&nbsp;{{/if}}{{/each}}&nbsp;|&nbsp;
+    {{release_date}}</p>
+</div>
+        {{!-- </div> --}}
+</li>
+{{/each}}
